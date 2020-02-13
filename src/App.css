@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #717171;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 980px;
+  font-size: 14px;
+}
+
+nav img {
+  height: 24px;
+}
+
+nav > span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav > div i {
+  margin-left: 8px;
+}
+
+.postlist {
+  width: 700px;
+  margin: 0 auto 20px;
+}
+
+.postitem {
+  margin-top: 20px;
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+  color: #3e3e3e;
+  line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.postheader {
+  display: flex;
+  align-items: center;
+}
+
+.postheader .details {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  line-height: 14px;
+  color: #9a9a9a;
+}
+
+.postheader .details span:first-child {
+  font-size: 14px;
+  color: #4a4a4a;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.avatar {
+  min-height: 32px;
+  min-width: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+}
+
+.postcontent {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.postcomment {
+  margin-top: 20px;
+}
+
+.comemnt {
+  margin-top: 20px;
+  display: flex;
+}
+
+.comemnt p {
+  border-radius: 20px;
+  background: #eeeeee;
+  font-size: 13px;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+.comemnt span {
+  margin-right: 6px;
+  font-weight: bold;
+}
